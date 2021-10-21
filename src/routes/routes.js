@@ -1,4 +1,6 @@
 import Landing from "../components/Landing";
+import Questions from "../components/Questions";
+import MathOperations from "../components/Questions/MathOperations";
 import TextManipulator from "../components/TextManipulator";
 
 const routes = [
@@ -8,7 +10,17 @@ const routes = [
     Component: Landing
   },
   {
-    path: "/change-text",
+    path: "/questions",
+    title: "Questions",
+    Component: Questions
+  },
+  {
+    path: "/math-operations",
+    title: "Questions",
+    Component: MathOperations
+  },
+  {
+    path: "/change-size-color",
     title: "Change Text",
     Component: TextManipulator
   },

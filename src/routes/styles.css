@@ -1,0 +1,15 @@
+body {
+  background-image: url("https://static-cse.canva.com/blob/571035/30examplesofpastelcolorsfeaturedimage.4c50a496.jpg");
+  font-family: cursive;
+  height: auto;
+}
+.template {
+  margin: 5% 15%;
+  padding: 0 30px;
+  background-color: white;
+  width: 70%;
+  min-height: 80%;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px beige;
+}

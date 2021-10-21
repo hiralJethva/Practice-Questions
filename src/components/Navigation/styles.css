@@ -1,17 +1,26 @@
 .navbar {
-  background-color: blanchedalmond;
   width: 100%;
   overflow: auto;
+  height: 60px;
 }
-
+.navbar ul {
+  list-style: none;
+  overflow: auto;
+  right: 0;
+  position: absolute;
+  display: flex;
+  padding: 0;
+}
 .nav-item {
   font-size: 18px;
   padding: 10px;
   float: left;
   text-align: center;
   text-decoration: none;
-  color: black;
+  color: indianred;
+  font-weight: bold;
+  font-family: cursive;
 }
 .nav-item:hover {
-  color: brown;
+  color: black;
 }

@@ -1,10 +1,11 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import routes from "./routes";
+import "./styles.css";
 
 const Template = () => {
   return (
-    <>
+    <div className="template">
       <Router>
         <Navigation />
         <Switch>
@@ -21,7 +22,7 @@ const Template = () => {
           })}
         </Switch>
       </Router>
-    </>
+    </div>
   );
 };
 

@@ -1,8 +1,16 @@
 const Landing = () => {
   return (
     <>
-      <h1>Welcome to Neog Prep</h1>
-      <p>Lets prepare for the topics togther.</p>
+      <h2>
+        Namaste{" "}
+        <span role="img" aria-label="Namaste">
+          🙏
+        </span>
+      </h2>
+      <p>
+        Welcome to Neog Intermediate interview. Here, you can go through the
+        sample interview questions.
+      </p>
     </>
   );
 };
