@@ -1,13 +1,12 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom";
-
-import App from "./App";
-import FontSize from "./FontSize";
+import Landing from "./components/Landing";
+import Template from "./routes";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <StrictMode>
-    <FontSize />
+    <Template />
   </StrictMode>,
   rootElement
 );
