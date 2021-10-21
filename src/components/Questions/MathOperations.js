@@ -1,20 +1,18 @@
 import React, { useState } from "react";
+import QuestionDescription from "./QuestionDescription";
 import "./styles.css";
 
 const MathOperations = () => {
   const result = "";
   return (
     <div className="math-operation">
-      <div className="question-description">
-        <h4>Description</h4>
-        <p>
-          Create a web app which would take two inputs. It would also have 4
-          buttons: +, -, x /. Based on the button clicked perform the operation
-          on the two inputs. You can do this in React or vanillaJS based on your
-          choice. Your time starts now.
-        </p>
-        <hr />
-      </div>
+      <QuestionDescription
+        title="Math Operations"
+        description="Create a web app which would take two inputs. It would also have 4
+        buttons: +, -, x /. Based on the button clicked perform the operation
+        on the two inputs. You can do this in React or vanillaJS based on your
+        choice. Your time starts now."
+      />
       <h6>
         Enter Input 1:{" "}
         <span>

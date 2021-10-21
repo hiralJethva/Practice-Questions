@@ -1,7 +1,8 @@
 import Landing from "../components/Landing";
 import Questions from "../components/Questions";
 import MathOperations from "../components/Questions/MathOperations";
-import TextManipulator from "../components/TextManipulator";
+import ChangeText from "../components/Questions/ChangeText";
+import PasswordChecker from "../components/Questions/PasswordChecker";
 
 const routes = [
   {
@@ -22,7 +23,7 @@ const routes = [
   {
     path: "/change-size-color",
     title: "Change Text",
-    Component: TextManipulator
+    Component: ChangeText
   },
   {
     path: "*",
