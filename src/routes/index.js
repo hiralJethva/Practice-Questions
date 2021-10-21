@@ -5,8 +5,8 @@ import routes from "./routes";
 const Template = () => {
   return (
     <>
-      <Navigation />
       <Router>
+        <Navigation />
         <Switch>
           {routes.map((r) => {
             if (r.path === "/") {

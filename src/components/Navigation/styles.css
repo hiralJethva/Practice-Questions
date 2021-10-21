@@ -1,0 +1,17 @@
+.navbar {
+  background-color: blanchedalmond;
+  width: 100%;
+  overflow: auto;
+}
+
+.nav-item {
+  font-size: 18px;
+  padding: 10px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.nav-item:hover {
+  color: brown;
+}
