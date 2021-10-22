@@ -1,10 +1,16 @@
 .question-item {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
 }
-.question-item a {
+.questions-list a {
   color: grey;
   text-decoration: none;
 }
-.question-item a:hover {
+.questions-list a:hover {
   text-decoration: underline;
 }
 
@@ -25,13 +31,25 @@
 .math-operation {
   justify-items: center;
 }
-.math-operation button {
+.question-item button {
   border: 2px solid black;
   padding: 3px;
-  width: 40px;
-  border-radius: 10px;
-  font-style: italic;
-  background-color: bisque;
+  min-width: 70px;
+  background-color: rgb(241, 72, 72);
   margin: 10px;
-  color: brown;
+  color: white;
+}
+
+.question-item table,
+th,
+td {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+.question-item th,
+td {
+  border-bottom: 2px solid rgba(56, 51, 51, 0.295);
 }

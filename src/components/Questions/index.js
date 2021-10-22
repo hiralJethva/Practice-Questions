@@ -29,7 +29,7 @@ const sampleQuestions = [
 ];
 const QuestionItem = ({ question, description, path }) => {
   return (
-    <div className="question-item">
+    <div className="questions-list">
       <Link to={path}>
         <h4>{question}</h4>
       </Link>
