@@ -12,12 +12,21 @@ const Template = () => {
           {routes.map((r) => {
             if (r.path === "/") {
               return (
-                <Route exact path="/">
-                  {r.Component}
-                </Route>
+                <Route
+                  exact
+                  path="/"
+                  key={r.path}
+                  component={r.Component}
+                ></Route>
               );
             } else {
-              return <Route path={r.path}>{r.Component}</Route>;
+              return (
+                <Route
+                  key={r.path}
+                  path={r.path}
+                  component={r.Component}
+                ></Route>
+              );
             }
           })}
         </Switch>

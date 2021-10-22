@@ -3,6 +3,9 @@ import Questions from "../components/Questions";
 import MathOperations from "../components/Questions/MathOperations";
 import ChangeText from "../components/Questions/ChangeText";
 import PasswordChecker from "../components/Questions/PasswordChecker";
+import ButtonLoader from "../components/Questions/ButtonLoader";
+import CSSColorVariables from "../components/Questions/CSSColorVariables";
+import CheckAgePower from "../components/Questions/CheckAgePower";
 
 const routes = [
   {
@@ -22,8 +25,28 @@ const routes = [
   },
   {
     path: "/change-size-color",
-    title: "Change Text",
+    title: "Questions",
     Component: ChangeText
+  },
+  {
+    path: "/button-loader",
+    title: "Button Loader",
+    Component: ButtonLoader
+  },
+  {
+    path: "/css-color-variables",
+    title: "CSS Color Variables",
+    Component: CSSColorVariables
+  },
+  {
+    path: "/password-checker",
+    title: "Password Checker",
+    Component: PasswordChecker
+  },
+  {
+    path: "/check-age-power",
+    title: "Find out Age/Power",
+    Component: CheckAgePower
   },
   {
     path: "*",
